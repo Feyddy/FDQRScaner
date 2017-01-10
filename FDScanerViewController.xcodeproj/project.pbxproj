@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8227A6F1E246AD300DD0CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227A6E1E246AD300DD0CF3 /* main.m */; };
+		F8227A721E246AD300DD0CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227A711E246AD300DD0CF3 /* AppDelegate.m */; };
+		F8227A751E246AD300DD0CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227A741E246AD300DD0CF3 /* ViewController.m */; };
+		F8227A781E246AD300DD0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8227A761E246AD300DD0CF3 /* Main.storyboard */; };
+		F8227A7A1E246AD300DD0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8227A791E246AD300DD0CF3 /* Assets.xcassets */; };
+		F8227A7D1E246AD300DD0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8227A7B1E246AD300DD0CF3 /* LaunchScreen.storyboard */; };
+		F8227A881E246AD300DD0CF3 /* FDScanerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227A871E246AD300DD0CF3 /* FDScanerViewControllerTests.m */; };
+		F8227A931E246AD300DD0CF3 /* FDScanerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227A921E246AD300DD0CF3 /* FDScanerViewControllerUITests.m */; };
+		F8227AA31E246B3700DD0CF3 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8227AA01E246B3700DD0CF3 /* qr_scan_line@2x.png */; };
+		F8227AA51E246B3700DD0CF3 /* QRView.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F8227AA21E246B3700DD0CF3 /* QRView.PNG */; };
+		F8227ABB1E246FB000DD0CF3 /* FDQRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227ABA1E246FB000DD0CF3 /* FDQRButton.m */; };
+		F8227ABE1E24701900DD0CF3 /* FDQRMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227ABD1E24701900DD0CF3 /* FDQRMenuView.m */; };
+		F8227AC11E24710700DD0CF3 /* FDQRUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227AC01E24710700DD0CF3 /* FDQRUtil.m */; };
+		F8227AC41E24717200DD0CF3 /* FDQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227AC31E24717200DD0CF3 /* FDQRView.m */; };
+		F8227ACA1E2473A800DD0CF3 /* FDQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227AC91E2473A800DD0CF3 /* FDQRCodeViewController.m */; };
+		F8227ACD1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8227ACC1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.m */; };
+		F8227AD11E247A3B00DD0CF3 /* QRCode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8227AD01E247A3B00DD0CF3 /* QRCode@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8227A841E246AD300DD0CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8227A621E246AD300DD0CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8227A691E246AD300DD0CF3;
+			remoteInfo = FDScanerViewController;
+		};
+		F8227A8F1E246AD300DD0CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8227A621E246AD300DD0CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8227A691E246AD300DD0CF3;
+			remoteInfo = FDScanerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8227A6A1E246AD300DD0CF3 /* FDScanerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDScanerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8227A6E1E246AD300DD0CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8227A701E246AD300DD0CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8227A711E246AD300DD0CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8227A731E246AD300DD0CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8227A741E246AD300DD0CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8227A771E246AD300DD0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8227A791E246AD300DD0CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8227A7C1E246AD300DD0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8227A7E1E246AD300DD0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8227A831E246AD300DD0CF3 /* FDScanerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDScanerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8227A871E246AD300DD0CF3 /* FDScanerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDScanerViewControllerTests.m; sourceTree = "<group>"; };
+		F8227A891E246AD300DD0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8227A8E1E246AD300DD0CF3 /* FDScanerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDScanerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8227A921E246AD300DD0CF3 /* FDScanerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDScanerViewControllerUITests.m; sourceTree = "<group>"; };
+		F8227A941E246AD300DD0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8227AA01E246B3700DD0CF3 /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qr_scan_line@2x.png"; path = "../qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		F8227AA21E246B3700DD0CF3 /* QRView.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QRView.PNG; path = ../QRView.PNG; sourceTree = "<group>"; };
+		F8227AB91E246FB000DD0CF3 /* FDQRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRButton.h; sourceTree = "<group>"; };
+		F8227ABA1E246FB000DD0CF3 /* FDQRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRButton.m; sourceTree = "<group>"; };
+		F8227ABC1E24701900DD0CF3 /* FDQRMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRMenuView.h; sourceTree = "<group>"; };
+		F8227ABD1E24701900DD0CF3 /* FDQRMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRMenuView.m; sourceTree = "<group>"; };
+		F8227ABF1E24710700DD0CF3 /* FDQRUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRUtil.h; sourceTree = "<group>"; };
+		F8227AC01E24710700DD0CF3 /* FDQRUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRUtil.m; sourceTree = "<group>"; };
+		F8227AC21E24717200DD0CF3 /* FDQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRView.h; sourceTree = "<group>"; };
+		F8227AC31E24717200DD0CF3 /* FDQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRView.m; sourceTree = "<group>"; };
+		F8227AC81E2473A800DD0CF3 /* FDQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRCodeViewController.h; sourceTree = "<group>"; };
+		F8227AC91E2473A800DD0CF3 /* FDQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRCodeViewController.m; sourceTree = "<group>"; };
+		F8227ACB1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPhotoQRCodeViewController.h; sourceTree = "<group>"; };
+		F8227ACC1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPhotoQRCodeViewController.m; sourceTree = "<group>"; };
+		F8227AD01E247A3B00DD0CF3 /* QRCode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCode@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8227A671E246AD300DD0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A801E246AD300DD0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A8B1E246AD300DD0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8227A611E246AD300DD0CF3 = {
+			isa = PBXGroup;
+			children = (
+				F8227A6C1E246AD300DD0CF3 /* FDScanerViewController */,
+				F8227A861E246AD300DD0CF3 /* FDScanerViewControllerTests */,
+				F8227A911E246AD300DD0CF3 /* FDScanerViewControllerUITests */,
+				F8227A6B1E246AD300DD0CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8227A6B1E246AD300DD0CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8227A6A1E246AD300DD0CF3 /* FDScanerViewController.app */,
+				F8227A831E246AD300DD0CF3 /* FDScanerViewControllerTests.xctest */,
+				F8227A8E1E246AD300DD0CF3 /* FDScanerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8227A6C1E246AD300DD0CF3 /* FDScanerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8227AAC1E246D0000DD0CF3 /* Classes */,
+				F8227A701E246AD300DD0CF3 /* AppDelegate.h */,
+				F8227A711E246AD300DD0CF3 /* AppDelegate.m */,
+				F8227A731E246AD300DD0CF3 /* ViewController.h */,
+				F8227A741E246AD300DD0CF3 /* ViewController.m */,
+				F8227AC81E2473A800DD0CF3 /* FDQRCodeViewController.h */,
+				F8227AC91E2473A800DD0CF3 /* FDQRCodeViewController.m */,
+				F8227ACB1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.h */,
+				F8227ACC1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.m */,
+				F8227A761E246AD300DD0CF3 /* Main.storyboard */,
+				F8227A791E246AD300DD0CF3 /* Assets.xcassets */,
+				F8227A7B1E246AD300DD0CF3 /* LaunchScreen.storyboard */,
+				F8227A7E1E246AD300DD0CF3 /* Info.plist */,
+				F8227A6D1E246AD300DD0CF3 /* Supporting Files */,
+			);
+			path = FDScanerViewController;
+			sourceTree = "<group>";
+		};
+		F8227A6D1E246AD300DD0CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8227A6E1E246AD300DD0CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8227A861E246AD300DD0CF3 /* FDScanerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8227A871E246AD300DD0CF3 /* FDScanerViewControllerTests.m */,
+				F8227A891E246AD300DD0CF3 /* Info.plist */,
+			);
+			path = FDScanerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F8227A911E246AD300DD0CF3 /* FDScanerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8227A921E246AD300DD0CF3 /* FDScanerViewControllerUITests.m */,
+				F8227A941E246AD300DD0CF3 /* Info.plist */,
+			);
+			path = FDScanerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		F8227AAC1E246D0000DD0CF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8227AD01E247A3B00DD0CF3 /* QRCode@2x.png */,
+				F8227AA01E246B3700DD0CF3 /* qr_scan_line@2x.png */,
+				F8227AA21E246B3700DD0CF3 /* QRView.PNG */,
+				F8227AB91E246FB000DD0CF3 /* FDQRButton.h */,
+				F8227ABA1E246FB000DD0CF3 /* FDQRButton.m */,
+				F8227ABC1E24701900DD0CF3 /* FDQRMenuView.h */,
+				F8227ABD1E24701900DD0CF3 /* FDQRMenuView.m */,
+				F8227ABF1E24710700DD0CF3 /* FDQRUtil.h */,
+				F8227AC01E24710700DD0CF3 /* FDQRUtil.m */,
+				F8227AC21E24717200DD0CF3 /* FDQRView.h */,
+				F8227AC31E24717200DD0CF3 /* FDQRView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8227A691E246AD300DD0CF3 /* FDScanerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8227A971E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewController" */;
+			buildPhases = (
+				F8227A661E246AD300DD0CF3 /* Sources */,
+				F8227A671E246AD300DD0CF3 /* Frameworks */,
+				F8227A681E246AD300DD0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDScanerViewController;
+			productName = FDScanerViewController;
+			productReference = F8227A6A1E246AD300DD0CF3 /* FDScanerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8227A821E246AD300DD0CF3 /* FDScanerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8227A9A1E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewControllerTests" */;
+			buildPhases = (
+				F8227A7F1E246AD300DD0CF3 /* Sources */,
+				F8227A801E246AD300DD0CF3 /* Frameworks */,
+				F8227A811E246AD300DD0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8227A851E246AD300DD0CF3 /* PBXTargetDependency */,
+			);
+			name = FDScanerViewControllerTests;
+			productName = FDScanerViewControllerTests;
+			productReference = F8227A831E246AD300DD0CF3 /* FDScanerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8227A8D1E246AD300DD0CF3 /* FDScanerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8227A9D1E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewControllerUITests" */;
+			buildPhases = (
+				F8227A8A1E246AD300DD0CF3 /* Sources */,
+				F8227A8B1E246AD300DD0CF3 /* Frameworks */,
+				F8227A8C1E246AD300DD0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8227A901E246AD300DD0CF3 /* PBXTargetDependency */,
+			);
+			name = FDScanerViewControllerUITests;
+			productName = FDScanerViewControllerUITests;
+			productReference = F8227A8E1E246AD300DD0CF3 /* FDScanerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8227A621E246AD300DD0CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Feyddy;
+				TargetAttributes = {
+					F8227A691E246AD300DD0CF3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 57EU58357H;
+					};
+					F8227A821E246AD300DD0CF3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8227A691E246AD300DD0CF3;
+					};
+					F8227A8D1E246AD300DD0CF3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8227A691E246AD300DD0CF3;
+					};
+				};
+			};
+			buildConfigurationList = F8227A651E246AD300DD0CF3 /* Build configuration list for PBXProject "FDScanerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8227A611E246AD300DD0CF3;
+			productRefGroup = F8227A6B1E246AD300DD0CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8227A691E246AD300DD0CF3 /* FDScanerViewController */,
+				F8227A821E246AD300DD0CF3 /* FDScanerViewControllerTests */,
+				F8227A8D1E246AD300DD0CF3 /* FDScanerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8227A681E246AD300DD0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8227A7D1E246AD300DD0CF3 /* LaunchScreen.storyboard in Resources */,
+				F8227A7A1E246AD300DD0CF3 /* Assets.xcassets in Resources */,
+				F8227AD11E247A3B00DD0CF3 /* QRCode@2x.png in Resources */,
+				F8227AA31E246B3700DD0CF3 /* qr_scan_line@2x.png in Resources */,
+				F8227AA51E246B3700DD0CF3 /* QRView.PNG in Resources */,
+				F8227A781E246AD300DD0CF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A811E246AD300DD0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A8C1E246AD300DD0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8227A661E246AD300DD0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8227ABB1E246FB000DD0CF3 /* FDQRButton.m in Sources */,
+				F8227ABE1E24701900DD0CF3 /* FDQRMenuView.m in Sources */,
+				F8227A751E246AD300DD0CF3 /* ViewController.m in Sources */,
+				F8227ACD1E2473BD00DD0CF3 /* FDPhotoQRCodeViewController.m in Sources */,
+				F8227AC11E24710700DD0CF3 /* FDQRUtil.m in Sources */,
+				F8227AC41E24717200DD0CF3 /* FDQRView.m in Sources */,
+				F8227A721E246AD300DD0CF3 /* AppDelegate.m in Sources */,
+				F8227ACA1E2473A800DD0CF3 /* FDQRCodeViewController.m in Sources */,
+				F8227A6F1E246AD300DD0CF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A7F1E246AD300DD0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8227A881E246AD300DD0CF3 /* FDScanerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8227A8A1E246AD300DD0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8227A931E246AD300DD0CF3 /* FDScanerViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8227A851E246AD300DD0CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8227A691E246AD300DD0CF3 /* FDScanerViewController */;
+			targetProxy = F8227A841E246AD300DD0CF3 /* PBXContainerItemProxy */;
+		};
+		F8227A901E246AD300DD0CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8227A691E246AD300DD0CF3 /* FDScanerViewController */;
+			targetProxy = F8227A8F1E246AD300DD0CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8227A761E246AD300DD0CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8227A771E246AD300DD0CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8227A7B1E246AD300DD0CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8227A7C1E246AD300DD0CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8227A951E246AD300DD0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8227A961E246AD300DD0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8227A981E246AD300DD0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FDScanerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8227A991E246AD300DD0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FDScanerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8227A9B1E246AD300DD0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDScanerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDScanerViewController.app/FDScanerViewController";
+			};
+			name = Debug;
+		};
+		F8227A9C1E246AD300DD0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDScanerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDScanerViewController.app/FDScanerViewController";
+			};
+			name = Release;
+		};
+		F8227A9E1E246AD300DD0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDScanerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDScanerViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8227A9F1E246AD300DD0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDScanerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDScanerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDScanerViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8227A651E246AD300DD0CF3 /* Build configuration list for PBXProject "FDScanerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8227A951E246AD300DD0CF3 /* Debug */,
+				F8227A961E246AD300DD0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8227A971E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8227A981E246AD300DD0CF3 /* Debug */,
+				F8227A991E246AD300DD0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8227A9A1E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8227A9B1E246AD300DD0CF3 /* Debug */,
+				F8227A9C1E246AD300DD0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8227A9D1E246AD300DD0CF3 /* Build configuration list for PBXNativeTarget "FDScanerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8227A9E1E246AD300DD0CF3 /* Debug */,
+				F8227A9F1E246AD300DD0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8227A621E246AD300DD0CF3 /* Project object */;
+}
